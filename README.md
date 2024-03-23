@@ -3,10 +3,10 @@
 We obtain the data from:
 
 ```text
-https://en.eurovelo.com/#
+https://en.eurovelo.com
 ```
 
-On the website the there is a `GET` method hidden, i.e. `https://en.eurovelo.com/route/get-gpx/<id>`. Unfortunately, so far I couldn't find a list with the IDs. Hence, in the following we took the brute force approach and tried IDs from 0 to N.
+On the EuroVelo website there is a `GET` method "hidden" at the path `route/get-gpx/<id>`. Unfortunately, so far we couldn't find the method which provides the list with the IDs. Hence, in the following we took the brute force approach and tried IDs from 0 to N.
 
 
 Regarding the GPX data wrangling, we took inspiration from:
